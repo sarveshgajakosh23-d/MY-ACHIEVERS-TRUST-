@@ -1926,3 +1926,382 @@ If no,
 Create a new reusable component.
 
 Consistency always takes priority over convenience.
+
+
+# SECTION 7 — ANIMATIONS & MOTION DESIGN
+
+---
+
+# MOTION PHILOSOPHY
+
+Motion should communicate quality.
+
+Animations should never exist just for decoration.
+
+Every animation must improve:
+
+• User Experience
+
+• Visual Hierarchy
+
+• Navigation
+
+• Storytelling
+
+• Perceived Performance
+
+Motion should feel natural, elegant, smooth, and intentional.
+
+---
+
+# ANIMATION LIBRARY
+
+Use only:
+
+Framer Motion
+
+Do not introduce multiple animation libraries.
+
+Maintain one consistent motion language.
+
+---
+
+# MOTION PRINCIPLES
+
+Animations should be:
+
+Fast
+
+Smooth
+
+Minimal
+
+Purposeful
+
+Accessible
+
+Professional
+
+Avoid flashy animations.
+
+Avoid distracting effects.
+
+Avoid excessive bouncing.
+
+---
+
+# GLOBAL PAGE TRANSITIONS
+
+Every page transition should feel seamless.
+
+Include:
+
+Fade
+
+Small Slide
+
+Smooth Opacity
+
+Maintain fast transitions.
+
+Avoid long loading animations.
+
+---
+
+# SCROLL ANIMATIONS
+
+Reveal sections only when entering the viewport.
+
+Allowed effects:
+
+Fade Up
+
+Fade Left
+
+Fade Right
+
+Fade In
+
+Scale In
+
+Use viewport detection.
+
+Animate once only.
+
+---
+
+# HERO ANIMATIONS
+
+Hero content should appear progressively.
+
+Recommended sequence:
+
+Logo
+
+↓
+
+Headline
+
+↓
+
+Subheading
+
+↓
+
+CTA Buttons
+
+↓
+
+Trust Indicators
+
+↓
+
+Scroll Indicator
+
+The sequence should feel premium.
+
+---
+
+# BUTTON ANIMATIONS
+
+Every button should include:
+
+Hover Lift
+
+Small Scale
+
+Smooth Color Transition
+
+Soft Shadow
+
+Pressed State
+
+Focus State
+
+Loading State
+
+Never over animate.
+
+---
+
+# CARD ANIMATIONS
+
+Cards should include:
+
+Hover Lift
+
+Soft Shadow Increase
+
+Image Zoom
+
+Icon Animation
+
+Smooth Transition
+
+Cards should feel interactive without becoming distracting.
+
+---
+
+# IMAGE ANIMATIONS
+
+Images may include:
+
+Fade
+
+Zoom
+
+Parallax
+
+Reveal
+
+Hover Zoom
+
+Maintain image quality.
+
+Never distort images.
+
+---
+
+# NAVIGATION ANIMATIONS
+
+Navbar
+
+Smooth Background Blur
+
+Menu Highlight
+
+Active Link Indicator
+
+Mobile Drawer Animation
+
+Sticky Scroll Transition
+
+Logo Fade
+
+Desktop and mobile interactions should feel consistent.
+
+---
+
+# COUNTER ANIMATIONS
+
+Statistics should animate once.
+
+Count smoothly.
+
+Do not restart on repeated scrolling.
+
+Animation duration should feel natural.
+
+---
+
+# TIMELINE ANIMATIONS
+
+Timeline entries reveal while scrolling.
+
+Alternate left/right layout (desktop).
+
+Single column (mobile).
+
+Maintain consistent timing.
+
+---
+
+# GALLERY ANIMATIONS
+
+Gallery cards:
+
+Fade
+
+Scale
+
+Hover Zoom
+
+Overlay Reveal
+
+Lightbox Transition
+
+Maintain high performance.
+
+---
+
+# TESTIMONIAL ANIMATIONS
+
+Carousel should slide smoothly.
+
+No abrupt movement.
+
+Navigation should feel intuitive.
+
+Support touch gestures on mobile.
+
+---
+
+# FORM ANIMATIONS
+
+Inputs:
+
+Focus Animation
+
+Border Transition
+
+Validation Feedback
+
+Loading Spinner
+
+Success Animation
+
+Error Animation
+
+Animations should improve clarity.
+
+---
+
+# MICRO INTERACTIONS
+
+Include subtle interactions for:
+
+Buttons
+
+Links
+
+Cards
+
+Icons
+
+Images
+
+Navigation
+
+Inputs
+
+Accordions
+
+Tabs
+
+These details create a premium experience.
+
+---
+
+# LOADING EXPERIENCE
+
+Use elegant loading states.
+
+Skeleton loaders.
+
+Image placeholders.
+
+Button loading indicators.
+
+Page loading animation.
+
+Avoid blank screens.
+
+---
+
+# REDUCED MOTION
+
+Respect user accessibility preferences.
+
+If prefers-reduced-motion is enabled:
+
+Reduce animations.
+
+Remove non-essential motion.
+
+Maintain usability.
+
+Accessibility always takes priority.
+
+---
+
+# PERFORMANCE
+
+Animations should never reduce performance.
+
+Maintain:
+
+High FPS
+
+Smooth scrolling
+
+Minimal layout shifts
+
+Efficient rendering
+
+Avoid heavy animation chains.
+
+---
+
+# MOTION CONSISTENCY
+
+Every animation across the website should feel like it belongs to the same design language.
+
+Visitors should never notice inconsistent timing or different animation styles.
+
+---
+
+# FINAL OBJECTIVE
+
+Motion should make the website feel alive without becoming distracting.
+
+Visitors should experience elegance, confidence, and professionalism through every interaction.

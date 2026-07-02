@@ -2305,3 +2305,1145 @@ Visitors should never notice inconsistent timing or different animation styles.
 Motion should make the website feel alive without becoming distracting.
 
 Visitors should experience elegance, confidence, and professionalism through every interaction.
+
+
+# SECTION 8 — PERFORMANCE, SEO, ACCESSIBILITY & SECURITY
+
+---
+
+# PRODUCTION FIRST
+
+Build every feature as if the website will be deployed immediately after client approval.
+
+The final product should be production-ready.
+
+Never build temporary solutions.
+
+Never create technical debt intentionally.
+
+---
+
+# PERFORMANCE TARGETS
+
+Target Lighthouse Scores:
+
+Performance: 95+
+
+Accessibility: 100
+
+Best Practices: 100
+
+SEO: 100
+
+Core Web Vitals should meet Google's recommended standards.
+
+---
+
+# PERFORMANCE PRINCIPLES
+
+Optimize for:
+
+Fast Initial Load
+
+Fast Navigation
+
+Minimal JavaScript
+
+Minimal Layout Shift
+
+Minimal Main Thread Blocking
+
+Smooth Scrolling
+
+Efficient Rendering
+
+Every optimization matters.
+
+---
+
+# IMAGE OPTIMIZATION
+
+Use Next.js Image component.
+
+Requirements:
+
+Lazy Loading
+
+Responsive Images
+
+Correct Dimensions
+
+Optimized Formats
+
+Avoid oversized images.
+
+Maintain image quality.
+
+Never stretch images.
+
+---
+
+# FONT OPTIMIZATION
+
+Use next/font.
+
+Self-host fonts whenever possible.
+
+Minimize font requests.
+
+Prevent layout shift caused by fonts.
+
+Use only required font weights.
+
+---
+
+# CODE SPLITTING
+
+Load JavaScript only when required.
+
+Use dynamic imports when appropriate.
+
+Avoid shipping unnecessary code.
+
+Keep bundles as small as possible.
+
+---
+
+# SERVER COMPONENTS
+
+Prefer Server Components whenever possible.
+
+Use Client Components only when necessary.
+
+Reduce unnecessary client-side JavaScript.
+
+---
+
+# SEO STRATEGY
+
+Every page must include:
+
+Unique Title
+
+Unique Description
+
+Canonical URL
+
+Open Graph Metadata
+
+Twitter Metadata
+
+Structured Data
+
+Proper Heading Hierarchy
+
+Readable URLs
+
+Search engines should clearly understand every page.
+
+---
+
+# STRUCTURED DATA
+
+Implement Schema.org structured data where appropriate.
+
+Examples:
+
+Organization
+
+Website
+
+Breadcrumb
+
+Event
+
+Article
+
+Contact
+
+This improves search visibility.
+
+---
+
+# SOCIAL SHARING
+
+Every page should generate attractive previews.
+
+Include:
+
+Open Graph Image
+
+Title
+
+Description
+
+Website Name
+
+Twitter Card
+
+Sharing should appear professional.
+
+---
+
+# ROBOTS & SITEMAP
+
+Generate:
+
+robots.txt
+
+sitemap.xml
+
+Use proper indexing rules.
+
+Prepare for production deployment.
+
+---
+
+# URL STRUCTURE
+
+Use clean URLs.
+
+Examples:
+
+/about
+
+/programs
+
+/gallery
+
+/contact
+
+Avoid unnecessary nesting.
+
+Avoid query-based navigation.
+
+---
+
+# ACCESSIBILITY PHILOSOPHY
+
+Accessibility is mandatory.
+
+Never treat accessibility as optional.
+
+Every visitor should be able to use the website comfortably.
+
+---
+
+# ACCESSIBILITY REQUIREMENTS
+
+Maintain:
+
+Semantic HTML
+
+ARIA Labels
+
+Keyboard Navigation
+
+Screen Reader Compatibility
+
+Visible Focus States
+
+Proper Color Contrast
+
+Logical Heading Order
+
+Descriptive Link Text
+
+Accessible Forms
+
+Alt Text for Images
+
+---
+
+# FORM ACCESSIBILITY
+
+Every form must support:
+
+Keyboard Navigation
+
+Proper Labels
+
+Validation Messages
+
+Error Announcements
+
+Focus Management
+
+Accessible Success Messages
+
+---
+
+# RESPONSIVE ACCESSIBILITY
+
+Accessibility must remain consistent across:
+
+Mobile
+
+Tablet
+
+Laptop
+
+Desktop
+
+Large Displays
+
+---
+
+# SECURITY
+
+Never expose:
+
+API Keys
+
+Secrets
+
+Private Tokens
+
+Sensitive Information
+
+Validate all user input.
+
+Sanitize form submissions.
+
+Follow secure coding practices.
+
+---
+
+# ERROR HANDLING
+
+Gracefully handle:
+
+Missing Images
+
+Broken Links
+
+404 Pages
+
+500 Errors
+
+Form Failures
+
+Network Errors
+
+Always provide helpful feedback.
+
+---
+
+# LOGGING
+
+Use meaningful logging during development.
+
+Avoid unnecessary console logs in production.
+
+Never expose internal implementation details to users.
+
+---
+
+# PROGRESSIVE ENHANCEMENT
+
+The website should remain functional even if advanced features fail.
+
+Core functionality must always work.
+
+---
+
+# BROWSER SUPPORT
+
+Support all modern browsers.
+
+Ensure consistent behavior.
+
+Gracefully degrade unsupported features.
+
+---
+
+# DEPLOYMENT READINESS
+
+Before deployment verify:
+
+Responsive Design
+
+Accessibility
+
+SEO
+
+Performance
+
+Metadata
+
+Broken Links
+
+Image Optimization
+
+Code Quality
+
+Production Build
+
+No warnings or errors.
+
+---
+
+# FINAL QUALITY CHECK
+
+Before considering any page complete ask:
+
+✓ Is it fast?
+
+✓ Is it accessible?
+
+✓ Is it responsive?
+
+✓ Is it SEO optimized?
+
+✓ Is it secure?
+
+✓ Is it production ready?
+
+If the answer to any question is "No", improve it before moving forward.
+
+---
+
+# FINAL OBJECTIVE
+
+The website should achieve agency-level quality in:
+
+Performance
+
+Accessibility
+
+SEO
+
+Security
+
+Reliability
+
+Maintainability
+
+The final product should be ready for real users from day one.
+
+
+
+# SECTION 9 — DEVELOPMENT WORKFLOW & EXECUTION STRATEGY
+
+---
+
+# DEVELOPMENT APPROACH
+
+Develop this project like a professional software team.
+
+Never attempt to build the entire application in a single step.
+
+Instead, complete development milestone by milestone.
+
+Each milestone must be fully reviewed before moving to the next.
+
+Quality is always more important than speed.
+
+---
+
+# DEVELOPMENT PHASES
+
+Follow this exact sequence.
+
+Phase 1
+
+Project Setup
+
+↓
+
+Phase 2
+
+Global Layout
+
+↓
+
+Phase 3
+
+Homepage
+
+↓
+
+Phase 4
+
+About
+
+↓
+
+Phase 5
+
+Initiatives
+
+↓
+
+Phase 6
+
+Sports Academy
+
+↓
+
+Phase 7
+
+Karate Association
+
+↓
+
+Phase 8
+
+Programs & Events
+
+↓
+
+Phase 9
+
+Gallery
+
+↓
+
+Phase 10
+
+CSR Partnership
+
+↓
+
+Phase 11
+
+Volunteer
+
+↓
+
+Phase 12
+
+Donate
+
+↓
+
+Phase 13
+
+Contact
+
+↓
+
+Phase 14
+
+Final Optimization
+
+Never skip phases.
+
+---
+
+# MILESTONE RULE
+
+Complete only one milestone at a time.
+
+After completing each milestone:
+
+Review your own work.
+
+Check responsiveness.
+
+Check accessibility.
+
+Check performance.
+
+Check consistency.
+
+Only then continue.
+
+---
+
+# BEFORE WRITING CODE
+
+Always:
+
+Read the project documentation.
+
+Understand the page requirements.
+
+Identify reusable components.
+
+Plan the implementation.
+
+Only after planning should development begin.
+
+Never immediately generate code.
+
+---
+
+# SELF REVIEW
+
+Before considering any task complete ask yourself:
+
+Is the code reusable?
+
+Is the UI consistent?
+
+Is the design premium?
+
+Is it responsive?
+
+Is accessibility maintained?
+
+Is performance optimized?
+
+Could this implementation be improved?
+
+If improvements are possible,
+
+Improve first.
+
+---
+
+# COMPONENT REUSE
+
+Before creating a new component ask:
+
+Can an existing component solve this?
+
+If yes,
+
+Reuse it.
+
+Never duplicate UI.
+
+Never duplicate logic.
+
+Maintain one design system.
+
+---
+
+# ERROR HANDLING
+
+If requirements conflict:
+
+Stop.
+
+Explain the conflict.
+
+Recommend the best solution.
+
+Never silently ignore project documentation.
+
+---
+
+# PROGRESS REPORTING
+
+After each milestone provide a brief report.
+
+Include:
+
+Completed Features
+
+Reusable Components Created
+
+Files Added
+
+Performance Improvements
+
+Accessibility Improvements
+
+Responsive Status
+
+Pending Tasks
+
+Known Issues (if any)
+
+This makes progress easy to track.
+
+---
+
+# CODE QUALITY CHECKLIST
+
+Every completed milestone should satisfy:
+
+✓ No duplicate code
+
+✓ Responsive
+
+✓ Accessible
+
+✓ Clean TypeScript
+
+✓ Reusable Components
+
+✓ Consistent Design
+
+✓ Optimized Performance
+
+✓ SEO Ready
+
+✓ Production Ready
+
+---
+
+# CHANGE MANAGEMENT
+
+If a future feature requires modifying existing code:
+
+Prefer extending existing components.
+
+Avoid rewriting stable code.
+
+Maintain backward compatibility whenever possible.
+
+---
+
+# GIT WORKFLOW
+
+Assume every milestone ends with:
+
+Meaningful commit message.
+
+Clean project state.
+
+No temporary files.
+
+No debugging code.
+
+No unused imports.
+
+The repository should remain production ready at all times.
+
+---
+
+# DOCUMENTATION
+
+Whenever new architecture decisions are made:
+
+Document them.
+
+Keep naming consistent.
+
+Keep folder structure organized.
+
+Avoid undocumented complexity.
+
+---
+
+# FINAL REVIEW
+
+Before declaring any milestone complete:
+
+Run a complete mental review.
+
+Verify:
+
+Design
+
+Performance
+
+Accessibility
+
+Responsiveness
+
+SEO
+
+Animations
+
+Code Quality
+
+Maintainability
+
+Scalability
+
+Only after all checks pass should the milestone be considered finished.
+
+---
+
+# DEVELOPMENT MINDSET
+
+Think like an experienced engineering team.
+
+Do not rush.
+
+Do not guess.
+
+Do not compromise quality.
+
+Every decision should improve the long-term health of the project.
+
+---
+
+# FINAL OBJECTIVE
+
+The completed website should be:
+
+Professional
+
+Reliable
+
+Maintainable
+
+Scalable
+
+Beautiful
+
+Fast
+
+Accessible
+
+Production Ready
+
+Every milestone should move the project one step closer to that standard.
+
+
+# SECTION 9 — DEVELOPMENT WORKFLOW & EXECUTION STRATEGY
+
+---
+
+# DEVELOPMENT APPROACH
+
+Develop this project like a professional software team.
+
+Never attempt to build the entire application in a single step.
+
+Instead, complete development milestone by milestone.
+
+Each milestone must be fully reviewed before moving to the next.
+
+Quality is always more important than speed.
+
+---
+
+# DEVELOPMENT PHASES
+
+Follow this exact sequence.
+
+Phase 1
+
+Project Setup
+
+↓
+
+Phase 2
+
+Global Layout
+
+↓
+
+Phase 3
+
+Homepage
+
+↓
+
+Phase 4
+
+About
+
+↓
+
+Phase 5
+
+Initiatives
+
+↓
+
+Phase 6
+
+Sports Academy
+
+↓
+
+Phase 7
+
+Karate Association
+
+↓
+
+Phase 8
+
+Programs & Events
+
+↓
+
+Phase 9
+
+Gallery
+
+↓
+
+Phase 10
+
+CSR Partnership
+
+↓
+
+Phase 11
+
+Volunteer
+
+↓
+
+Phase 12
+
+Donate
+
+↓
+
+Phase 13
+
+Contact
+
+↓
+
+Phase 14
+
+Final Optimization
+
+Never skip phases.
+
+---
+
+# MILESTONE RULE
+
+Complete only one milestone at a time.
+
+After completing each milestone:
+
+Review your own work.
+
+Check responsiveness.
+
+Check accessibility.
+
+Check performance.
+
+Check consistency.
+
+Only then continue.
+
+---
+
+# BEFORE WRITING CODE
+
+Always:
+
+Read the project documentation.
+
+Understand the page requirements.
+
+Identify reusable components.
+
+Plan the implementation.
+
+Only after planning should development begin.
+
+Never immediately generate code.
+
+---
+
+# SELF REVIEW
+
+Before considering any task complete ask yourself:
+
+Is the code reusable?
+
+Is the UI consistent?
+
+Is the design premium?
+
+Is it responsive?
+
+Is accessibility maintained?
+
+Is performance optimized?
+
+Could this implementation be improved?
+
+If improvements are possible,
+
+Improve first.
+
+---
+
+# COMPONENT REUSE
+
+Before creating a new component ask:
+
+Can an existing component solve this?
+
+If yes,
+
+Reuse it.
+
+Never duplicate UI.
+
+Never duplicate logic.
+
+Maintain one design system.
+
+---
+
+# ERROR HANDLING
+
+If requirements conflict:
+
+Stop.
+
+Explain the conflict.
+
+Recommend the best solution.
+
+Never silently ignore project documentation.
+
+---
+
+# PROGRESS REPORTING
+
+After each milestone provide a brief report.
+
+Include:
+
+Completed Features
+
+Reusable Components Created
+
+Files Added
+
+Performance Improvements
+
+Accessibility Improvements
+
+Responsive Status
+
+Pending Tasks
+
+Known Issues (if any)
+
+This makes progress easy to track.
+
+---
+
+# CODE QUALITY CHECKLIST
+
+Every completed milestone should satisfy:
+
+✓ No duplicate code
+
+✓ Responsive
+
+✓ Accessible
+
+✓ Clean TypeScript
+
+✓ Reusable Components
+
+✓ Consistent Design
+
+✓ Optimized Performance
+
+✓ SEO Ready
+
+✓ Production Ready
+
+---
+
+# CHANGE MANAGEMENT
+
+If a future feature requires modifying existing code:
+
+Prefer extending existing components.
+
+Avoid rewriting stable code.
+
+Maintain backward compatibility whenever possible.
+
+---
+
+# GIT WORKFLOW
+
+Assume every milestone ends with:
+
+Meaningful commit message.
+
+Clean project state.
+
+No temporary files.
+
+No debugging code.
+
+No unused imports.
+
+The repository should remain production ready at all times.
+
+---
+
+# DOCUMENTATION
+
+Whenever new architecture decisions are made:
+
+Document them.
+
+Keep naming consistent.
+
+Keep folder structure organized.
+
+Avoid undocumented complexity.
+
+---
+
+# FINAL REVIEW
+
+Before declaring any milestone complete:
+
+Run a complete mental review.
+
+Verify:
+
+Design
+
+Performance
+
+Accessibility
+
+Responsiveness
+
+SEO
+
+Animations
+
+Code Quality
+
+Maintainability
+
+Scalability
+
+Only after all checks pass should the milestone be considered finished.
+
+---
+
+# DEVELOPMENT MINDSET
+
+Think like an experienced engineering team.
+
+Do not rush.
+
+Do not guess.
+
+Do not compromise quality.
+
+Every decision should improve the long-term health of the project.
+
+---
+
+# FINAL OBJECTIVE
+
+The completed website should be:
+
+Professional
+
+Reliable
+
+Maintainable
+
+Scalable
+
+Beautiful
+
+Fast
+
+Accessible
+
+Production Ready
+
+Every milestone should move the project one step closer to that standard.

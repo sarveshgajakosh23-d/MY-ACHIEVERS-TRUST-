@@ -1435,3 +1435,494 @@ The homepage is complete only when:
 ✓ The client is immediately impressed.
 
 Do not continue to other pages until the homepage has been reviewed and approved.
+
+
+# SECTION 6 — GLOBAL COMPONENTS & REUSABLE UI SYSTEM
+
+---
+
+# COMPONENT PHILOSOPHY
+
+Every UI element should be built as a reusable component.
+
+Never duplicate layouts.
+
+Never recreate identical cards.
+
+Never hardcode repeated UI.
+
+Build once.
+
+Reuse everywhere.
+
+---
+
+# DESIGN SYSTEM
+
+The website should behave like a professional design system.
+
+Every component must follow:
+
+• Consistent spacing
+
+• Consistent typography
+
+• Consistent colors
+
+• Consistent animations
+
+• Consistent border radius
+
+• Consistent shadows
+
+• Consistent responsiveness
+
+Every page should feel like part of one unified product.
+
+---
+
+# COMPONENT HIERARCHY
+
+Organize components logically.
+
+Global Components
+
+↓
+
+Layout Components
+
+↓
+
+Section Components
+
+↓
+
+Feature Components
+
+↓
+
+UI Components
+
+↓
+
+Utility Components
+
+Avoid deeply nested component trees.
+
+---
+
+# GLOBAL COMPONENTS
+
+Create reusable global components.
+
+These include:
+
+Navbar
+
+Footer
+
+Container
+
+Section
+
+Section Heading
+
+Breadcrumb
+
+Page Header
+
+Loading Screen
+
+Page Transition
+
+Back To Top Button
+
+Floating WhatsApp Button
+
+Scroll Progress Indicator
+
+Newsletter Section
+
+CTA Banner
+
+Every page should reuse these components.
+
+---
+
+# BUTTON SYSTEM
+
+Create reusable buttons.
+
+Primary Button
+
+Secondary Button
+
+Outline Button
+
+Ghost Button
+
+Text Button
+
+Icon Button
+
+Every button must support:
+
+Hover
+
+Focus
+
+Loading
+
+Disabled
+
+Keyboard Navigation
+
+ARIA Labels
+
+---
+
+# CARD SYSTEM
+
+Every card should inherit a common design language.
+
+Reusable cards include:
+
+Initiative Card
+
+Program Card
+
+Event Card
+
+Gallery Card
+
+News Card
+
+CSR Card
+
+Testimonial Card
+
+Team Card
+
+Achievement Card
+
+Statistic Card
+
+Each card should support:
+
+Image
+
+Icon
+
+Title
+
+Description
+
+Button
+
+Hover Animation
+
+Responsive Layout
+
+---
+
+# FORM COMPONENTS
+
+Create reusable form elements.
+
+Input
+
+Textarea
+
+Dropdown
+
+Checkbox
+
+Radio Button
+
+Toggle
+
+Submit Button
+
+Validation Message
+
+Loading State
+
+Success State
+
+Error State
+
+Never redesign forms for each page.
+
+---
+
+# SECTION COMPONENTS
+
+Create reusable homepage sections.
+
+Hero Section
+
+Statistics Section
+
+About Section
+
+Initiatives Section
+
+Timeline Section
+
+Gallery Section
+
+Testimonials Section
+
+CSR Section
+
+Donation Section
+
+Contact CTA
+
+Footer CTA
+
+Each section should be configurable through props.
+
+---
+
+# NAVIGATION COMPONENTS
+
+Navbar
+
+Desktop Menu
+
+Mobile Drawer
+
+Dropdown Menu
+
+Navigation Link
+
+Active Link
+
+Breadcrumb
+
+Each navigation component should remain reusable.
+
+---
+
+# MODALS
+
+Reusable modal system.
+
+Uses:
+
+Gallery Preview
+
+Image Viewer
+
+Announcements
+
+Videos
+
+Future Login
+
+Future Forms
+
+Maintain one modal system.
+
+---
+
+# FEEDBACK COMPONENTS
+
+Toast Notifications
+
+Success Alerts
+
+Warning Alerts
+
+Error Alerts
+
+Information Alerts
+
+Loading Overlay
+
+Skeleton Loader
+
+Empty State
+
+404 State
+
+500 State
+
+---
+
+# MEDIA COMPONENTS
+
+Image Component
+
+Video Component
+
+Gallery Grid
+
+Carousel
+
+Lightbox
+
+Image Placeholder
+
+Lazy Image Loader
+
+All optimized for performance.
+
+---
+
+# ANIMATION COMPONENTS
+
+Reusable animation wrappers.
+
+Fade In
+
+Slide Up
+
+Slide Left
+
+Slide Right
+
+Scale
+
+Stagger Children
+
+Reveal On Scroll
+
+Counter Animation
+
+Hover Lift
+
+Hover Scale
+
+Maintain one animation language across the website.
+
+---
+
+# LAYOUT COMPONENTS
+
+Container
+
+Section Wrapper
+
+Grid
+
+Flex Layout
+
+Page Wrapper
+
+Card Wrapper
+
+Content Wrapper
+
+These should maintain spacing consistency.
+
+---
+
+# TYPOGRAPHY COMPONENTS
+
+Display Heading
+
+Section Heading
+
+Subheading
+
+Paragraph
+
+Caption
+
+Label
+
+Quote
+
+Statistic Text
+
+Use one typography system throughout the website.
+
+---
+
+# ICON SYSTEM
+
+Use only Lucide React.
+
+Maintain consistent icon sizing.
+
+Maintain consistent stroke width.
+
+Never mix icon libraries.
+
+---
+
+# COMPONENT RULES
+
+Every component must be:
+
+Reusable
+
+Accessible
+
+Responsive
+
+Scalable
+
+Maintainable
+
+Animation Ready
+
+Type Safe
+
+Performance Optimized
+
+Documented
+
+---
+
+# RESPONSIBILITY RULE
+
+Each component should solve only one responsibility.
+
+If a component becomes too large, split it into smaller reusable components.
+
+Never create "God Components."
+
+---
+
+# FUTURE READY
+
+Every component should support future expansion.
+
+Examples:
+
+CMS Integration
+
+API Data
+
+Authentication
+
+Admin Dashboard
+
+Dynamic Content
+
+Internationalization
+
+Dark Mode
+
+Without major rewrites.
+
+---
+
+# ACCEPTANCE CRITERIA
+
+Before creating a new component ask:
+
+Can an existing component solve this?
+
+If yes,
+
+Reuse it.
+
+If no,
+
+Create a new reusable component.
+
+Consistency always takes priority over convenience.

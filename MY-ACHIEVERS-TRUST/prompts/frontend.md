@@ -954,3 +954,484 @@ The finished website should feel trustworthy, modern, emotionally engaging, visu
 Visitors should remember the experience, not just the information.
 
 Every screen should strengthen the MY ACHIEVERS TRUST brand.
+
+
+# SECTION 5 — HOMEPAGE BLUEPRINT & USER JOURNEY
+
+---
+
+# HOMEPAGE OBJECTIVE
+
+The homepage is the most important page of the website.
+
+Its purpose is to:
+
+• Build trust immediately.
+
+• Introduce MY ACHIEVERS TRUST.
+
+• Showcase impact.
+
+• Inspire visitors.
+
+• Encourage action.
+
+A visitor should understand the organization's mission within the first few seconds.
+
+---
+
+# USER JOURNEY
+
+The homepage should guide users naturally.
+
+Landing
+
+↓
+
+First Impression
+
+↓
+
+Learn About Trust
+
+↓
+
+See Impact
+
+↓
+
+Explore Programs
+
+↓
+
+Build Confidence
+
+↓
+
+Take Action
+
+↓
+
+Donate / Volunteer / Contact
+
+Every section should smoothly lead into the next.
+
+---
+
+# PAGE STRUCTURE
+
+Build the homepage in the following order.
+
+1. Announcement Bar (Optional)
+
+2. Sticky Navigation
+
+3. Hero Section
+
+4. Impact Statistics
+
+5. About Preview
+
+6. Core Initiatives
+
+7. Why Choose Us
+
+8. Timeline
+
+9. Gallery Preview
+
+10. Testimonials
+
+11. Upcoming Events
+
+12. CSR Partnership
+
+13. Donation CTA
+
+14. Contact CTA
+
+15. Footer
+
+Never change this order unless instructed.
+
+---
+
+# NAVIGATION
+
+Navigation should remain visible while scrolling.
+
+Requirements:
+
+Transparent on page load.
+
+Blur background while scrolling.
+
+Smooth transition.
+
+Desktop navigation.
+
+Mobile drawer.
+
+Logo on left.
+
+Menu centered.
+
+Primary CTA buttons on right.
+
+Menu Items:
+
+Home
+
+About
+
+Initiatives
+
+Sports
+
+Karate
+
+Gallery
+
+CSR
+
+Contact
+
+Buttons:
+
+Donate
+
+Volunteer
+
+---
+
+# HERO SECTION
+
+This is the emotional centerpiece of the homepage.
+
+Requirements:
+
+Full viewport height.
+
+Premium layout.
+
+Strong visual hierarchy.
+
+High quality background image or video.
+
+Dark overlay for readability.
+
+Content includes:
+
+Headline
+
+Supporting text
+
+Primary CTA
+
+Secondary CTA
+
+Trust indicator
+
+Optional floating statistics
+
+Subtle scroll indicator
+
+The hero must instantly communicate purpose and professionalism.
+
+---
+
+# IMPACT STATISTICS
+
+Display animated counters.
+
+Examples:
+
+Years of Service
+
+Children Empowered
+
+Karate Students
+
+Sports Programs
+
+Volunteers
+
+CSR Projects
+
+Counters should animate only once when entering the viewport.
+
+---
+
+# ABOUT PREVIEW
+
+Briefly introduce MY ACHIEVERS TRUST.
+
+Include:
+
+Short story.
+
+Mission.
+
+Vision.
+
+Learn More button.
+
+Image.
+
+Two-column responsive layout.
+
+---
+
+# CORE INITIATIVES
+
+Display major focus areas.
+
+Each initiative should be presented as a premium card.
+
+Suggested initiatives:
+
+Sports Academy
+
+Shotokan Karate
+
+Special Children's Programs
+
+Community Development
+
+Youth Empowerment
+
+Education Support
+
+Each card includes:
+
+Icon
+
+Title
+
+Description
+
+Learn More button
+
+Hover animation
+
+---
+
+# WHY CHOOSE US
+
+Present reasons visitors should trust the organization.
+
+Display using modern cards or feature blocks.
+
+Examples:
+
+Experienced Team
+
+Community Impact
+
+Certified Programs
+
+Inclusive Activities
+
+Trusted Partnerships
+
+Transparent Operations
+
+---
+
+# TIMELINE
+
+Display organizational milestones.
+
+Vertical timeline.
+
+Reveal animation.
+
+Each milestone contains:
+
+Year
+
+Title
+
+Description
+
+Optional image
+
+---
+
+# GALLERY PREVIEW
+
+Display selected images.
+
+Responsive masonry or grid.
+
+Hover effect.
+
+Lightbox support.
+
+CTA:
+
+View Full Gallery
+
+---
+
+# TESTIMONIALS
+
+Display testimonials from:
+
+Parents
+
+Students
+
+Volunteers
+
+Partners
+
+Sponsors
+
+Modern carousel.
+
+Professional cards.
+
+Subtle animation.
+
+---
+
+# UPCOMING EVENTS
+
+Show future events.
+
+Each card includes:
+
+Image
+
+Title
+
+Date
+
+Location
+
+Registration button
+
+Responsive layout.
+
+---
+
+# CSR PARTNERSHIP
+
+Explain corporate partnership opportunities.
+
+Include:
+
+Benefits
+
+Impact
+
+Call To Action
+
+Professional business-focused design.
+
+---
+
+# DONATION SECTION
+
+Strong emotional appeal.
+
+Explain how donations create impact.
+
+Primary CTA:
+
+Donate Now
+
+Include trust indicators where appropriate.
+
+---
+
+# CONTACT CTA
+
+Encourage visitors to connect.
+
+Display:
+
+Phone
+
+Email
+
+Address
+
+WhatsApp
+
+Contact Button
+
+Map preview (placeholder if necessary)
+
+---
+
+# FOOTER
+
+Premium footer.
+
+Include:
+
+Organization overview
+
+Quick links
+
+Programs
+
+Contact details
+
+Newsletter
+
+Social media
+
+Copyright
+
+Privacy Policy
+
+Terms & Conditions
+
+---
+
+# HOMEPAGE DESIGN REQUIREMENTS
+
+Every section should include:
+
+Consistent spacing.
+
+Strong typography.
+
+Meaningful imagery.
+
+Responsive layout.
+
+Smooth animations.
+
+Reusable components.
+
+Accessibility support.
+
+Performance optimization.
+
+---
+
+# ACCEPTANCE CRITERIA
+
+The homepage is complete only when:
+
+✓ It feels premium.
+
+✓ It is fully responsive.
+
+✓ Navigation works correctly.
+
+✓ Animations are smooth.
+
+✓ Components are reusable.
+
+✓ Accessibility is maintained.
+
+✓ Performance is optimized.
+
+✓ The client is immediately impressed.
+
+Do not continue to other pages until the homepage has been reviewed and approved.
